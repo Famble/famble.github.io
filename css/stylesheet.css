@@ -1,0 +1,9 @@
+.header-bakgrunn{
+/*    background-image: url('http://www.texturezine.com/wp-content/uploads/2014/05/blue-polygon.jpg');*/
+  display: block;
+  background-position: center;
+/*  min-height: 650px; */
+  background-size: cover;
+  text-align: center;
+    color: white;
+}
