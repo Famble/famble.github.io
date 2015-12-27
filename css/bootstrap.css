@@ -1086,7 +1086,8 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: gray;
+  background-color: gainsboro;
+  margin-top: 55px;
 }
 input,
 button,
@@ -3646,6 +3647,7 @@ tbody.collapse.in {
     left: 0;
   }
 }
+
 .btn-group,
 .btn-group-vertical {
   position: relative;
@@ -4359,7 +4361,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-nav {
-    float: left;
+    display: inline-block;
+    float: none;
     margin: 0;
   }
   .navbar-nav > li {
@@ -4493,12 +4496,19 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-right {
     float: right !important;
     margin-right: -15px;
-    padding-right: 55px;
+    padding-right: 50px;
   }
   .navbar-right ~ .navbar-right {
     margin-right: 0;
   }
 }
+/*
+@media (min-width: 992px) {
+  .navbar-right {
+    padding-right: 13%;
+  }
+}
+*/
 .navbar-default {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
@@ -4611,11 +4621,11 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #9d9d9d;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #9d9d9d;
+  color: #ffffff;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #fff;
+  color: #df2020;
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .active > a,

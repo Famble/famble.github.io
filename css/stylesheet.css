@@ -1,12 +1,4 @@
-.header-bakgrunn{
-/*    background-image: url('http://www.texturezine.com/wp-content/uploads/2014/05/blue-polygon.jpg');*/
-  display: block;
-  background-position: center;
-/*  min-height: 650px; */
-  background-size: cover;
-  text-align: center;
-   
-}
+
 .inner-mid{
     
     width: 164px;
@@ -21,11 +13,23 @@
 #logo{
     height: 40px;
     width: 40px;
+    margin-right: 5px;
 }
 
-/*
-.navbar-mid{
-    margin-left: 200px !important;
-    margin-right: auto !important;
+.logo{
+    color:white;
+    text-decoration: none;
+    padding-left: 10px;    
 }
-*/
+.logo:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.navbar-mid{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    color: blue !important;
+}
