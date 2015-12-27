@@ -5,5 +5,15 @@
 /*  min-height: 650px; */
   background-size: cover;
   text-align: center;
-    color: white;
+   
+}
+.inner-mid{
+    
+    width: 164px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    display: block;
 }
