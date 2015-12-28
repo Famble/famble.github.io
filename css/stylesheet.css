@@ -19,7 +19,8 @@
 .logo{
     color:white;
     text-decoration: none;
-    padding-left: 10px;    
+    padding-left: 10px;  
+    letter-spacing: 1px;
 }
 .logo:hover{
     color: white;
