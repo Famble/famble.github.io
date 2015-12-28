@@ -34,3 +34,9 @@
     margin-right: auto !important;
     color: blue !important;
 }
+
+.team-banner{
+    height: auto;
+    width: auto;
+    margin-bottom: 30px;
+}
