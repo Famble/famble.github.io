@@ -4333,7 +4333,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-nav {
   margin: 7.5px -15px;
-
+  text-align: center;
 
 }
 .navbar-nav > li > a {
@@ -4501,19 +4501,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-right {
     float: right !important;
     margin-right: -15px;
-    padding-right: 50px;
+    padding-right: 18px;
   }
   .navbar-right ~ .navbar-right {
     margin-right: 0;
   }
 }
-/*
-@media (min-width: 992px) {
-  .navbar-right {
-    padding-right: 13%;
-  }
-}
-*/
 .navbar-default {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
