@@ -26,7 +26,11 @@
     color: white;
     text-decoration: none;
 }
-
+.hover-state{
+    color: #df2020;
+    font-weight: bolder;
+    text-decoration: underline;
+}
 
 
 .navbar-mid{
